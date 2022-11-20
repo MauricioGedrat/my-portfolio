@@ -4,7 +4,7 @@ export const TitleHero = () => {
   return (
     <h1 className="text-[210px] font-bold leading-[110px] text-center text-[#ededed] font-['Poppins'] mt-32">
       <div
-        className="flex justify-center"
+        className="flex justify-center text-blue-500 title-shadow"
         data-aos="fade-right"
         data-aos-duration="2000"
       >
