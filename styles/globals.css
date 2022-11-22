@@ -70,15 +70,26 @@
 
 .image-outline {
   position: relative;
+  transition: 0.3s;
+}
+
+.image-outline:hover {
+  transform: scale(1.02);
+}
+
+.image-outline:hover .outline {
+  opacity: 1;
 }
 
 .outline {
   background: #3f83f8;
+  transition: 0.3s;
   position: absolute;
   border: none;
   outline: none;
   box-shadow: 0 0 8px rgba(255, 255, 255, 0.496), 0px 5px 50px 5px #3f83f8;
   z-index: 10;
+  opacity: 0;
 }
 
 .o-1 {
