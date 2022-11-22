@@ -48,7 +48,7 @@
   top: 0;
   bottom: 0;
   background: #3f83f8;
-  box-shadow: 0 0 128px 32px #3f83f8;
+  box-shadow: 0 0 128px 42px #3f83f8;
   z-index: -1;
   opacity: 0;
   transition: 0.3s;
@@ -65,5 +65,44 @@
 }
 
 .title-shadow {
-  text-shadow: 5px 2px 128px #3f83f8;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.3), 5px 2px 129px #3f83f8;
+}
+
+.image-outline {
+  position: relative;
+}
+
+.outline {
+  background: #3f83f8;
+  position: absolute;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.496), 0px 5px 50px 5px #3f83f8;
+  z-index: 10;
+}
+
+.o-1 {
+  width: 3px;
+  bottom: 0;
+  top: 0;
+}
+.o-2 {
+  height: 3px;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.o-3 {
+  width: 3px;
+  bottom: 0;
+  top: 0;
+  right: 0;
+}
+
+.o-4 {
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }

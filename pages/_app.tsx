@@ -11,5 +11,9 @@ export default function App({ Component, pageProps }: AppProps) {
       offset: 100,
     });
   }, []);
-  return <Component {...pageProps} />;
+  return (
+    <div className="snap-y">
+      <Component {...pageProps} />
+    </div>
+  );
 }
