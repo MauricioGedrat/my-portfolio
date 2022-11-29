@@ -46,44 +46,44 @@ export const Header = () => {
             className="mt-[65px] absolute md:hidden flex items-center justify-center flex-col top-0 bottom-0 left-0 right-0 bg-transparent backdrop-blur-lg h-[95vh] z-[99]"
           >
             <div className="mb-10">
-              <Link
+              <a
                 href="#"
                 className="text-[#d3d3d3] hover:animate-pulse hover:border-b-2 border-gray-500 duration-300 font-bold text-4xl hover:text-white font-['Poppins'] transition-colors"
               >
                 Home
-              </Link>
+              </a>
             </div>
             <div className="mb-10">
-              <Link
+              <a
                 href="#projects"
                 className="text-[#d3d3d3] hover:animate-pulse hover:border-b-2 border-gray-500 duration-300 font-bold text-4xl hover:text-white font-['Poppins'] transition-colors"
               >
                 Projects
-              </Link>
+              </a>
             </div>{" "}
             <div className="mb-10">
-              <Link
+              <a
                 href="#"
                 className="text-[#d3d3d3] hover:animate-pulse hover:border-b-2 border-gray-500 duration-300 font-bold text-4xl hover:text-white font-['Poppins'] transition-colors"
               >
                 Services
-              </Link>
+              </a>
             </div>{" "}
             <div className="mb-10">
-              <Link
+              <a
                 href="#"
                 className="text-[#d3d3d3] hover:animate-pulse hover:border-b-2 border-gray-500 duration-300 font-bold text-4xl hover:text-white font-['Poppins'] transition-colors"
               >
                 Pricing
-              </Link>
+              </a>
             </div>{" "}
             <div className="mb-10">
-              <Link
+              <a
                 href="#"
                 className="text-[#d3d3d3] hover:animate-pulse hover:border-b-2 border-gray-500 duration-300 font-bold text-4xl hover:text-white font-['Poppins'] transition-colors"
               >
                 Contact
-              </Link>
+              </a>
             </div>{" "}
           </div>
         )}
@@ -109,36 +109,36 @@ export const Header = () => {
           </svg>
         </div>
         <div className="flex justify-center items-center gap-5">
-          <Link
+          <a
             href="#"
             className="text-[#d3d3d3] hover:text-white font-['Poppins'] transition-colors"
           >
             Home
-          </Link>
-          <Link
-            href="#prjects+"
+          </a>
+          <a
+            href="#prjects"
             className="text-[#d3d3d3] hover:text-white font-['Poppins'] transition-colors"
           >
             Projects
-          </Link>
-          <Link
+          </a>
+          <a
             href="#"
             className="text-[#d3d3d3] hover:text-white font-['Poppins'] transition-colors"
           >
             Services
-          </Link>
-          <Link
+          </a>
+          <a
             href="#"
             className="text-[#d3d3d3] hover:text-white font-['Poppins'] transition-colors"
           >
             Pricing
-          </Link>
-          <Link
+          </a>
+          <a
             href="#"
             className="text-[#d3d3d3] hover:text-white font-['Poppins'] transition-colors"
           >
             Contact
-          </Link>
+          </a>
         </div>
       </div>
     </div>

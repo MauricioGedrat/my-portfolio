@@ -14,6 +14,7 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@400;900&display=swap"
           rel="stylesheet"
         />
+        <title>Maurício Gedrat</title>
       </Head>
       <body>
         <Main />
