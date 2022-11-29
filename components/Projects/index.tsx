@@ -13,21 +13,15 @@ export const Projects = () => {
         <h1
           data-aos="zoom-in-left"
           data-aos-duration={2000}
-          className="font-bold font-['Poppins'] text-7xl title-shadow text-blue-500"
+          className="font-bold font-['Poppins'] sm:text-7xl text-5xl title-shadow text-blue-500"
         >
           Projects
         </h1>
       </div>
 
       <div className="flex justify-center max-w-[1200px]">
-        <div className="max-w-[1200px]">
-          <div className="mb-20 xl:flex justify-between items-center gap-10">
-            <div  data-aos-duration={2000} data-aos="fade-down-right">
-              <h1 className="text-[#d3d3d3] uppercase mb-5 text-4xl font-['Poppins']">
-                Scalar DEV
-              </h1>
-              <p className="text-gray-300 font-['Poppins'] text-xl">Empresa de desenvolvimento Web. Site desenvolvido em 2021</p>
-            </div>
+        <div className="max-w-[1200px] p-10">
+          <div className="mb-20 xl:flex-row-reverse flex-col-reverse flex justify-between  items-center gap-10">
             <div data-aos-duration={2000} data-aos="fade-up-right">
               <Link target={"_blank"} href={"https://scalar.dev.br/"} className="image-outline">
                 <Image src={Img1} alt="image" width={550} />
@@ -37,8 +31,14 @@ export const Projects = () => {
                 <div className="outline o-4"></div>
               </Link>
             </div>
+            <div className="xl:block flex-col text-center flex justify-center " data-aos-duration={2000} data-aos="fade-down-right">
+              <h1 className="text-[#d3d3d3] uppercase mb-5 md:text-4xl text-3xl font-['Poppins']">
+                Scalar DEV
+              </h1>
+              <p className="text-gray-300 font-['Poppins'] md:text-xl text-lg">Empresa de desenvolvimento Web. Site desenvolvido em 2021</p>
+            </div>
           </div>
-          <div className="mb-20 xl:flex justify-between items-center gap-10">
+          <div className="mb-20 xl:flex-row flex-col-reverse flex justify-between  items-center gap-10">
             <div data-aos-duration={2000} data-aos="fade-down-right">
               <Link target={"_blank"} href={"https://duofree.vercel.app/"} className="image-outline" >
                 <Image src={Img2} alt="image" width={550} />
@@ -48,20 +48,14 @@ export const Projects = () => {
                 <div className="outline o-4"></div>
               </Link>
             </div>
-              <div data-aos-duration={2000} data-aos="fade-up-right">
-                <h1 className="text-[#d3d3d3] uppercase mb-5 text-4xl font-['Poppins']">
+            <div className="xl:block flex-col text-center flex justify-center " data-aos-duration={2000} data-aos="fade-up-right">
+                <h1 className="text-[#d3d3d3] uppercase mb-5 md:text-4xl text-3xl font-['Poppins']">
                   Duofree
                 </h1>
-                <p className="text-gray-300 font-['Poppins'] text-xl">Site desenvolvido para treinamento de Design. Site desevolvido em 2022</p>
+                <p className="text-gray-300 font-['Poppins'] md:text-xl text-lg">Site desenvolvido para treinamento de Design. Site desevolvido em 2022</p>
             </div>
           </div>
-          <div className="mb-20 xl:flex justify-between items-center gap-10">
-          <div data-aos-duration={2000} data-aos="fade-down-right">
-                <h1 className="text-[#d3d3d3] uppercase mb-5 text-4xl font-['Poppins']">
-                  Mustang
-                </h1>
-                <p className="text-gray-300 font-['Poppins'] text-xl">Site desenvolvido para treinamento de Design. Site desevolvido em 2022</p>
-            </div>
+          <div className="mb-20 xl:flex-row-reverse flex-col-reverse flex justify-between  items-center gap-10">
             <div data-aos-duration={2000} data-aos="fade-up-right">
               <Link target={"_blank"} href={"https://mustang-roan.vercel.app/"} className="image-outline">
                 <Image src={Img3} alt="image" width={550} />
@@ -71,8 +65,14 @@ export const Projects = () => {
                 <div className="outline o-4"></div>
               </Link>
             </div>
+          <div  className="xl:block flex-col text-center flex justify-center "  data-aos-duration={2000} data-aos="fade-down-right">
+                <h1 className="text-[#d3d3d3] uppercase mb-5 md:text-4xl text-3xl font-['Poppins']">
+                  Mustang
+                </h1>
+                <p className="text-gray-300 font-['Poppins'] md:text-xl text-lg">Site desenvolvido para treinamento de Design. Site desevolvido em 2022</p>
+            </div>
           </div>
-          <div className="mb-20 xl:flex justify-between items-center gap-10">
+          <div className="mb-20 xl:flex-row flex-col-reverse flex justify-between  items-center gap-10">
             <div data-aos-duration={2000} data-aos="fade-down-right">
               <Link target={"_blank"} href={"https://restauly.vercel.app/"} className="image-outline">
                 <Image src={Img4} alt="image" width={550} />
@@ -82,11 +82,11 @@ export const Projects = () => {
                 <div className="outline o-4"></div>
               </Link>
             </div>
-          <div  data-aos-duration={2000} data-aos="fade-up-right">
-                <h1 className="text-[#d3d3d3] uppercase mb-5 text-4xl font-['Poppins']">
+          <div  className="xl:block flex-col text-center flex justify-center "  data-aos-duration={2000} data-aos="fade-up-right">
+                <h1 className="text-[#d3d3d3] uppercase mb-5 md:text-4xl text-3xl font-['Poppins']">
                   Restauly
                 </h1>
-                <p className="text-gray-300 font-['Poppins'] text-xl">Site desenvolvido para treinamento de Design. Site desevolvido em 2022</p>
+                <p className="text-gray-300 font-['Poppins'] md:text-xl text-lg">Site desenvolvido para treinamento de Design. Site desevolvido em 2022</p>
             </div>
           </div>
         </div>

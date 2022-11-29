@@ -7,7 +7,7 @@ import { Projects } from "../components/Projects";
 export default function Home() {
   return (
     <div className="h-full bg-hero-bg bg-no-repeat bg-cover">
-      <EfficientCursor speed={0.2} className="relative z-[100000]">
+      <EfficientCursor speed={0.2} className="relative z-[100000] md:flex hidden">
         <div className="w-14 h-14 bg-transparent border-2 border-[#d3d3d3] rounded-full "></div>
       </EfficientCursor>
 
