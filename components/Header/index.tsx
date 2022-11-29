@@ -48,23 +48,23 @@ export const Header = () => {
             <div className="mb-10">
               <Link
                 href="#"
-                className="text-[#d3d3d3] fon hover:scale-105 font-bold text-4xl hover:text-white font-['Poppins'] transition-colors"
+                className="text-[#d3d3d3] hover:animate-pulse hover:border-b-2 border-gray-500 duration-300 font-bold text-4xl hover:text-white font-['Poppins'] transition-colors"
               >
                 Home
               </Link>
             </div>
             <div className="mb-10">
               <Link
-                href="#"
-                className="text-[#d3d3d3] fon hover:scale-105 font-bold text-4xl hover:text-white font-['Poppins'] transition-colors"
+                href="#projects"
+                className="text-[#d3d3d3] hover:animate-pulse hover:border-b-2 border-gray-500 duration-300 font-bold text-4xl hover:text-white font-['Poppins'] transition-colors"
               >
-                About
+                Projects
               </Link>
             </div>{" "}
             <div className="mb-10">
               <Link
                 href="#"
-                className="text-[#d3d3d3] fon hover:scale-105 font-bold text-4xl hover:text-white font-['Poppins'] transition-colors"
+                className="text-[#d3d3d3] hover:animate-pulse hover:border-b-2 border-gray-500 duration-300 font-bold text-4xl hover:text-white font-['Poppins'] transition-colors"
               >
                 Services
               </Link>
@@ -72,7 +72,7 @@ export const Header = () => {
             <div className="mb-10">
               <Link
                 href="#"
-                className="text-[#d3d3d3] fon hover:scale-105 font-bold text-4xl hover:text-white font-['Poppins'] transition-colors"
+                className="text-[#d3d3d3] hover:animate-pulse hover:border-b-2 border-gray-500 duration-300 font-bold text-4xl hover:text-white font-['Poppins'] transition-colors"
               >
                 Pricing
               </Link>
@@ -80,7 +80,7 @@ export const Header = () => {
             <div className="mb-10">
               <Link
                 href="#"
-                className="text-[#d3d3d3] fon hover:scale-105 font-bold text-4xl hover:text-white font-['Poppins'] transition-colors"
+                className="text-[#d3d3d3] hover:animate-pulse hover:border-b-2 border-gray-500 duration-300 font-bold text-4xl hover:text-white font-['Poppins'] transition-colors"
               >
                 Contact
               </Link>
@@ -116,10 +116,10 @@ export const Header = () => {
             Home
           </Link>
           <Link
-            href="#"
+            href="#prjects+"
             className="text-[#d3d3d3] hover:text-white font-['Poppins'] transition-colors"
           >
-            About
+            Projects
           </Link>
           <Link
             href="#"
