@@ -116,7 +116,7 @@ export const Header = () => {
             Home
           </a>
           <a
-            href="#prjects"
+            href="#projects"
             className="text-[#d3d3d3] hover:text-white font-['Poppins'] transition-colors"
           >
             Projects
