@@ -35,7 +35,7 @@ export const Projects = () => {
               <h1 className="text-[#d3d3d3] uppercase mb-5 md:text-4xl text-3xl font-['Poppins']">
                 Scalar DEV
               </h1>
-              <p className="text-gray-300 font-['Poppins'] md:text-xl text-lg">Empresa de desenvolvimento Web. Site desenvolvido em 2021</p>
+              <p className="text-gray-500 font-['Poppins'] md:text-xl text-lg">Empresa de desenvolvimento Web. Site desenvolvido em 2021</p>
             </div>
           </div>
           <div className="mb-20 xl:flex-row flex-col-reverse flex justify-between  items-center gap-10">
@@ -52,7 +52,7 @@ export const Projects = () => {
                 <h1 className="text-[#d3d3d3] uppercase mb-5 md:text-4xl text-3xl font-['Poppins']">
                   Duofree
                 </h1>
-                <p className="text-gray-300 font-['Poppins'] md:text-xl text-lg">Site desenvolvido para treinamento de Design. Site desevolvido em 2022</p>
+                <p className="text-gray-500 font-['Poppins'] md:text-xl text-lg">Site desenvolvido para treinamento de Design. Site desevolvido em 2022</p>
             </div>
           </div>
           <div className="mb-20 xl:flex-row-reverse flex-col-reverse flex justify-between  items-center gap-10">
@@ -69,7 +69,7 @@ export const Projects = () => {
                 <h1 className="text-[#d3d3d3] uppercase mb-5 md:text-4xl text-3xl font-['Poppins']">
                   Mustang
                 </h1>
-                <p className="text-gray-300 font-['Poppins'] md:text-xl text-lg">Site desenvolvido para treinamento de Design. Site desevolvido em 2022</p>
+                <p className="text-gray-500 font-['Poppins'] md:text-xl text-lg">Site desenvolvido para treinamento de Design. Site desevolvido em 2022</p>
             </div>
           </div>
           <div className="mb-20 xl:flex-row flex-col-reverse flex justify-between  items-center gap-10">
@@ -86,7 +86,7 @@ export const Projects = () => {
                 <h1 className="text-[#d3d3d3] uppercase mb-5 md:text-4xl text-3xl font-['Poppins']">
                   Restauly
                 </h1>
-                <p className="text-gray-300 font-['Poppins'] md:text-xl text-lg">Site desenvolvido para treinamento de Design. Site desevolvido em 2022</p>
+                <p className="text-gray-500 font-['Poppins'] md:text-xl text-lg">Site desenvolvido para treinamento de Design. Site desevolvido em 2022</p>
             </div>
           </div>
         </div>

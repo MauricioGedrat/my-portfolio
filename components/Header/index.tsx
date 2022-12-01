@@ -63,10 +63,11 @@ export const Header = () => {
             </div>{" "}
             <div className="mb-10">
               <a
-                href="#"
+                href="#skills"
                 className="text-[#d3d3d3] hover:animate-pulse hover:border-b-2 border-gray-500 duration-300 font-bold text-4xl hover:text-white font-['Poppins'] transition-colors"
               >
-                Services
+                Skills
+          
               </a>
             </div>{" "}
             <div className="mb-10">
@@ -122,10 +123,11 @@ export const Header = () => {
             Projects
           </a>
           <a
-            href="#"
+            href="#skills"
             className="text-[#d3d3d3] hover:text-white font-['Poppins'] transition-colors"
           >
-            Services
+            Skills
+        
           </a>
           <a
             href="#"

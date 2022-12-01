@@ -3,6 +3,7 @@ import dynamic from "next/dynamic";
 import EfficientCursor from "react-efficient-cursor";
 import { TitleHero } from "../components/TitleHero";
 import { Projects } from "../components/Projects";
+import { Skills } from "../components/Skills";
 
 export default function Home() {
   return (
@@ -24,7 +25,7 @@ export default function Home() {
             data-aos="zoom-in"
             data-aos-duration={2000}
           >
-            <p className="text-[#d3d3d3] text-2xl xl:text-right text-center">
+            <p className="text-gray-400 text-2xl xl:text-right text-center">
               Created in <span className="text-blue-500">2022</span> <br />{" "}
               Available for new projects
             </p>
@@ -44,6 +45,7 @@ export default function Home() {
         </div>
 
         <Projects />
+        <Skills/>
         {/* <Slide /> */}
       </div>
     </div>
