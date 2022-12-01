@@ -117,5 +117,8 @@
   left: 0;
   right: 0;
 }
-.o-4 {
+
+.progress-shadow{
+  box-shadow:  0px 2px 100px 2px #3f83f8;
+
 }

@@ -24,109 +24,70 @@ export const Skills = () => {
 
       <div className="flex justify-center items-center">
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-20">
-          <div className="md:flex-row flex-col flex justify-center items-center gap-14">
+          <div data-aos='flip-down' data-aos-duration={2000} className="md:flex-row flex-col flex justify-center items-center gap-14">
             <ReactSvg />
-            <Progress
-              progress={70}
-              className='md:w-96 w-60 text-xl'
-              label="React.js: 70%"
-              labelPosition="inside"
-              labelProgress={true}
-              size='xl'
-              color="blue"
-              
-            />
+
+            <div className="relative  flex items-center md:w-96 w-60 text-xl border-4 rounded-full h-10 border-blue-500 text-white progress-shadow">
+              <div className="absolute left-0 top-0 rounded-l-full h-full flex justify-center bg-blue-500 w-[70%]">
+                React.js: 70%
+              </div>
+            </div>
           </div>
-          <div className="md:flex-row flex-col flex justify-center items-center gap-14">
+          <div data-aos='flip-down' data-aos-duration={2000} className="md:flex-row flex-col flex justify-center items-center gap-14">
             <NextSvg />
-            <Progress
-              progress={75}
-              className='md:w-96 w-60 text-xl'
-              label="Next.js: 75%"
-              labelPosition="inside"
-              labelProgress={true}
-              size='xl'
-              color="blue"
-              
-            />
+            <div className="relative  flex items-center md:w-96 w-60 text-xl border-4 rounded-full h-10 border-blue-500 text-white progress-shadow">
+              <div className="absolute left-0 top-0 rounded-l-full h-full flex justify-center bg-blue-500 w-[75%]">
+                Next.js: 75%
+              </div>
+            </div>
           </div>
-          <div className="md:flex-row flex-col flex justify-center items-center gap-14">
+          <div data-aos='flip-down' data-aos-duration={2000} className="md:flex-row flex-col flex justify-center items-center gap-14">
             <TailwindSvg />
-            <Progress
-              progress={100}
-              className='md:w-96 w-60 text-xl'
-              label="Tailwind CSS: 100%"
-              labelPosition="inside"
-              labelProgress={true}
-              size='xl'
-              color="blue"
-              
-            />
+            <div className="relative  flex items-center md:w-96 w-60 text-xl border-4 rounded-full h-10 border-blue-500 text-white progress-shadow">
+              <div className="absolute left-0 top-0 rounded-full h-full flex justify-center bg-blue-500 w-[100%]">
+                Tailwind CSS: 100%
+              </div>
+            </div>
           </div>
-          <div className="md:flex-row flex-col flex justify-center items-center gap-14">
+          <div data-aos='flip-down' data-aos-duration={2000} className="md:flex-row flex-col flex justify-center items-center gap-14">
             <ViteSvg />
-            <Progress
-              progress={90}
-              className='md:w-96 w-60 text-xl'
-              label="Vite.js: 90%"
-              labelPosition="inside"
-              labelProgress={true}
-              size='xl'
-              color="blue"
-              
-            />
+            <div className="relative  flex items-center md:w-96 w-60 text-xl border-4 rounded-full h-10 border-blue-500 text-white progress-shadow">
+              <div className="absolute left-0 top-0 rounded-l-full h-full flex justify-center bg-blue-500 w-[80%]">
+                Vite.js: 80%
+              </div>
+            </div>
           </div>
-          <div className="md:flex-row flex-col flex justify-center items-center gap-14">
+          <div data-aos='flip-down' data-aos-duration={2000} className="md:flex-row flex-col flex justify-center items-center gap-14">
             <NodeSvg />
-            <Progress
-              progress={40}
-              className='md:w-96 w-60'
-              label="Node.js: 20%"
-              labelPosition="inside"
-              labelProgress={true}
-              size='xl'
-              color="blue"
-              
-            />
+            <div className="relative  flex items-center md:w-96 w-60 text-sm  sm:text-xl border-4 rounded-full h-10 border-blue-500 text-white progress-shadow">
+              <div className="absolute left-0 top-0 rounded-l-full h-full flex items-center justify-center bg-blue-500 w-[40%]">
+                Node.js: 20%
+              </div>
+            </div>
           </div>
-          <div className="md:flex-row flex-col flex justify-center items-center gap-14">
+          <div data-aos='flip-down' data-aos-duration={2000} className="md:flex-row flex-col flex justify-center items-center gap-14">
             <GitSvg />
-            <Progress
-              progress={95}
-              className='md:w-96 w-60 text-xl'
-              label="Git: 95%"
-              labelPosition="inside"
-              labelProgress={true}
-              size='xl'
-              color="blue"
-              
-            />
+            <div className="relative  flex items-center md:w-96 w-60 text-xl border-4 rounded-full h-10 border-blue-500 text-white progress-shadow">
+              <div className="absolute left-0 top-0 rounded-l-full h-full flex justify-center bg-blue-500 w-[85%]">
+                Git: 85%
+              </div>
+            </div>
           </div>
-          <div className="md:flex-row flex-col flex justify-center items-center gap-14">
+          <div data-aos='flip-down' data-aos-duration={2000} className="md:flex-row flex-col flex justify-center items-center gap-14">
             <GitHubSvg />
-            <Progress
-              progress={100}
-              className='md:w-96 w-60 text-xl'
-              label="Github: 100%"
-              labelPosition="inside"
-              labelProgress={true}
-              size='xl'
-              color="blue"
-              
-            />
+            <div className="relative  flex items-center md:w-96 w-60 text-xl border-4 rounded-full h-10 border-blue-500 text-white progress-shadow">
+              <div className="absolute left-0 top-0 rounded-full h-full flex justify-center bg-blue-500 w-[100%]">
+                GitHub: 100%
+              </div>
+            </div>
           </div>
-          <div className="md:flex-row flex-col flex justify-center items-center gap-14">
+          <div data-aos='flip-down' data-aos-duration={2000} className="md:flex-row flex-col flex justify-center items-center gap-14">
             <VsCodeSvg />
-            <Progress
-              progress={100}
-              className='md:w-96 w-60 text-xl'
-              label="Visual Studio Code: 100%"
-              labelPosition="inside"
-              labelProgress={true}
-              size='xl'
-              color="blue"
-              
-            />
+            <div className="relative  flex items-center md:w-96 w-60 text-xl border-4 rounded-full h-10 border-blue-500 text-white progress-shadow">
+              <div className="absolute left-0 top-0 rounded-full h-full flex justify-center bg-blue-500 w-[100%]">
+                Visual Studio Code: 100%
+              </div>
+            </div>
           </div>
         </div>
       </div>
