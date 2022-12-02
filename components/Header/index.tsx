@@ -8,7 +8,7 @@ export const Header = () => {
     <div data-aos="fade-up" className="fixed w-full z-[1000]">
       {/* Mbile menu */}
       <div>
-        <div className="rounded-xl relative flex md:hidden justify-between items-center z-[99] bg-transparent px-10 backdrop-blur-lg">
+        <div className="rounded-xl relative flex justify-between items-center z-[99] bg-transparent px-10 backdrop-blur-lg">
           <div className="text-2xl text-gray-200">
             <svg
               width="75"
@@ -43,28 +43,31 @@ export const Header = () => {
         {show && (
           <div
             data-aos="zoom-in"
-            className="mt-[65px] absolute md:hidden flex items-center justify-center flex-col top-0 bottom-0 left-0 right-0 bg-transparent backdrop-blur-lg h-[95vh] z-[99]"
+            className="mt-[65px] absolute  flex items-center justify-center flex-col top-0 bottom-0 left-0 right-0 bg-transparent backdrop-blur-lg h-[95vh] z-[99]"
           >
             <div className="mb-10">
               <a
+              onClick={() => setShow(!show)}
                 href="#"
-                className="text-[#d3d3d3] hover:animate-pulse hover:border-b-2 border-gray-500 duration-300 font-bold text-4xl hover:text-white font-['Poppins'] transition-colors"
+                className="text-[#d3d3d3] hover:animate-pulse hover:border-b-2 border-gray-500 duration-300 font-bold md:text-7xl text-4xl hover:text-white font-['Poppins'] transition-colors"
               >
                 Home
               </a>
             </div>
             <div className="mb-10">
               <a
+              onClick={() => setShow(!show)}
                 href="#projects"
-                className="text-[#d3d3d3] hover:animate-pulse hover:border-b-2 border-gray-500 duration-300 font-bold text-4xl hover:text-white font-['Poppins'] transition-colors"
+                className="text-[#d3d3d3] hover:animate-pulse hover:border-b-2 border-gray-500 duration-300 font-bold md:text-7xl text-4xl hover:text-white font-['Poppins'] transition-colors"
               >
                 Projects
               </a>
             </div>{" "}
             <div className="mb-10">
               <a
+              onClick={() => setShow(!show)}
                 href="#skills"
-                className="text-[#d3d3d3] hover:animate-pulse hover:border-b-2 border-gray-500 duration-300 font-bold text-4xl hover:text-white font-['Poppins'] transition-colors"
+                className="text-[#d3d3d3] hover:animate-pulse hover:border-b-2 border-gray-500 duration-300 font-bold md:text-7xl text-4xl hover:text-white font-['Poppins'] transition-colors"
               >
                 Skills
           
@@ -72,16 +75,18 @@ export const Header = () => {
             </div>{" "}
             <div className="mb-10">
               <a
+              onClick={() => setShow(!show)}
                 href="#"
-                className="text-[#d3d3d3] hover:animate-pulse hover:border-b-2 border-gray-500 duration-300 font-bold text-4xl hover:text-white font-['Poppins'] transition-colors"
+                className="text-[#d3d3d3] hover:animate-pulse hover:border-b-2 border-gray-500 duration-300 font-bold md:text-7xl text-4xl hover:text-white font-['Poppins'] transition-colors"
               >
                 Pricing
               </a>
             </div>{" "}
             <div className="mb-10">
               <a
+              onClick={() => setShow(!show)}
                 href="#"
-                className="text-[#d3d3d3] hover:animate-pulse hover:border-b-2 border-gray-500 duration-300 font-bold text-4xl hover:text-white font-['Poppins'] transition-colors"
+                className="text-[#d3d3d3] hover:animate-pulse hover:border-b-2 border-gray-500 duration-300 font-bold md:text-7xl text-4xl hover:text-white font-['Poppins'] transition-colors"
               >
                 Contact
               </a>
@@ -90,7 +95,7 @@ export const Header = () => {
         )}
       </div>
       {/* Mobile Menu */}
-      <div className=" rounded-xl md:flex hidden relative  justify-between items-center z-[99] bg-transparent px-10 backdrop-blur-md">
+     {/*  <div className=" rounded-xl md:flex hidden relative  justify-between items-center z-[99] bg-transparent px-10 backdrop-blur-md">
         <div className="text-2xl text-gray-200">
           <svg
             width="75"
@@ -142,7 +147,7 @@ export const Header = () => {
             Contact
           </a>
         </div>
-      </div>
+        </div>*/}
     </div>
   );
 };
