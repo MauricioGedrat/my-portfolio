@@ -22,11 +22,11 @@ export default function Home() {
             {/* <CodeMockup /> */}
           </div>
           <div
-            className="flex xl:justify-end justify-center mt-20 xl:mb-0 mb-10"
+            className="flex xl:justify-end justify-center mt-10 xl:mb-0 mb-10"
             data-aos="zoom-in"
             data-aos-duration={2000}
           >
-            <p className="text-gray-400 text-2xl xl:text-right text-center">
+            <p className="text-gray-400 sm:text-2xl text-md xl:text-right text-center">
               Created in <span className="text-blue-500">2022</span> <br />{" "}
               Available for new projects
             </p>

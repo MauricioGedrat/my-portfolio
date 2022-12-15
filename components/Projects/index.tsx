@@ -13,7 +13,7 @@ export const Projects = () => {
     <div className=" max-w-[1200px] m-auto">
       <div className="mt-32 flex justify-center mb-20" id="projects">
         <h1
-          data-aos="zoom-in-left"
+          data-aos="zoom-in"
           data-aos-duration={2000}
           className="font-bold font-['Poppins'] sm:text-7xl text-5xl title-shadow text-blue-500"
         >

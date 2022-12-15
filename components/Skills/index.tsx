@@ -13,7 +13,7 @@ export const Skills = () => {
     <div id="skills" className="pb-10">
       <div className=" flex justify-center pb-20" id="projects">
         <h1
-          data-aos="zoom-in-left"
+          data-aos="zoom-in"
           data-aos-duration={2000}
           className="font-bold font-['Poppins'] sm:text-7xl text-6xl title-shadow text-blue-500"
         >
