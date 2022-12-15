@@ -4,6 +4,7 @@ import EfficientCursor from "react-efficient-cursor";
 import { TitleHero } from "../components/TitleHero";
 import { Projects } from "../components/Projects";
 import { Skills } from "../components/Skills";
+import { ContactForm } from "../components/ContactForm";
 
 export default function Home() {
   return (
@@ -47,6 +48,7 @@ export default function Home() {
         <Projects />
         <Skills/>
         {/* <Slide /> */}
+        <ContactForm/>
       </div>
     </div>
   );
