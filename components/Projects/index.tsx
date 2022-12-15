@@ -47,7 +47,7 @@ export const Projects = () => {
                 Scalar DEV
               </h1>
               <p className="text-gray-500 font-['Poppins'] md:text-xl text-lg">
-                Empresa de desenvolvimento Web. Site desenvolvido em 2021
+              Web development company. Website developed in 2021
               </p>
             </div>
           </div>
@@ -74,8 +74,7 @@ export const Projects = () => {
                 Duofree
               </h1>
               <p className="text-gray-500 font-['Poppins'] md:text-xl text-lg">
-                Site desenvolvido para treinamento de Design. Site desevolvido
-                em 2022
+                Website developed for Design training. Website developed in 2022
               </p>
             </div>
           </div>
@@ -102,8 +101,7 @@ export const Projects = () => {
                 Mustang
               </h1>
               <p className="text-gray-500 font-['Poppins'] md:text-xl text-lg">
-                Site desenvolvido para treinamento de Design. Site desevolvido
-                em 2022
+                Website developed for Design training. Website developed in 2022
               </p>
             </div>
           </div>
@@ -130,8 +128,7 @@ export const Projects = () => {
                 Restauly
               </h1>
               <p className="text-gray-500 font-['Poppins'] md:text-xl text-lg">
-                Site desenvolvido para treinamento de Design. Site desevolvido
-                em 2022
+                Website developed for Design training. Website developed in 2022
               </p>
             </div>
           </div>

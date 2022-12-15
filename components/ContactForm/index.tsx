@@ -72,7 +72,7 @@ export function ContactForm() {
           field="message"
           errors={state.errors}
         />
-        <div className="flex gap-[10px]">
+        <div className="flex gap-[20px]">
           <button
             type="submit"
             className="form-btn border-4 border-blue-500 font-bold text-blue-500 rounded-lg text-2xl hover:bg-blue-500 hover:text-white duration-300 px-20 py-4 "
