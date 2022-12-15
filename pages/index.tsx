@@ -5,11 +5,15 @@ import { TitleHero } from "../components/TitleHero";
 import { Projects } from "../components/Projects";
 import { Skills } from "../components/Skills";
 import { ContactForm } from "../components/ContactForm";
+import { Footer } from "../components/Footer";
 
 export default function Home() {
   return (
     <div className="h-full bg-hero-bg bg-no-repeat bg-cover">
-      <EfficientCursor speed={0.2} className="relative z-[100000] md:flex hidden">
+      <EfficientCursor
+        speed={0.2}
+        className="relative z-[100000] md:flex hidden"
+      >
         <div className="w-14 h-14 bg-transparent border-2 border-[#d3d3d3] rounded-full "></div>
       </EfficientCursor>
 
@@ -46,9 +50,10 @@ export default function Home() {
         </div>
 
         <Projects />
-        <Skills/>
+        <Skills />
         {/* <Slide /> */}
-        <ContactForm/>
+        <ContactForm />
+        <Footer/>
       </div>
     </div>
   );

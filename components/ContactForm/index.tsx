@@ -75,10 +75,10 @@ export function ContactForm() {
         <div className="md:flex gap-[20px]">
           <button
             type="submit"
-            className="w-full md:w-auto form-btn mb-5 border-4 border-blue-500 font-bold text-blue-500 rounded-lg text-2xl hover:bg-blue-500 hover:text-white duration-300 px-20 py-4 "
-            disabled={state.submitting}
+            className="w-full md:w-auto disabled:opacity-70 disabled:hover:cursor-not-allowed form-btn mb-5 border-4 border-blue-500 font-bold text-blue-500 rounded-lg text-2xl enabled:hover:bg-blue-500 enabled:hover:text-white duration-300 px-20 py-4 "
+            disabled={state.succeeded}
           >
-            Send
+            {state.succeeded ? 'Thanks for sending' : 'Send'}
           </button>
           <div>
             <a
