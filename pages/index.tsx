@@ -11,10 +11,10 @@ export default function Home() {
   return (
     <div className="h-full bg-hero-bg bg-no-repeat bg-cover">
       <EfficientCursor
-        speed={0.2}
+        speed={0.3}
         className="relative z-[100000] md:flex hidden"
       >
-        <div className="w-14 h-14 bg-transparent border-2 border-[#d3d3d3] rounded-full "></div>
+        <div className="w-7 h-7 bg-transparent border-2 border-[#d3d3d3] bg-[#d3d3d3] bg-opacity-30 backdrop-blur-lg rounded-full "></div>
       </EfficientCursor>
 
       <div className="bg-[#0000009f] h-full">
