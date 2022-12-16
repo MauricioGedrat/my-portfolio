@@ -104,7 +104,7 @@ export const Skills = () => {
             <GitHubSvg />
             <div className="relative flex items-center text-white">
               <div className=" w-[250px] font-['Poppins'] text-[#d3d3d3] text-center text-xl">
-                <span className="font-bold text-white">GitHub:</span>1 year and 5 months of experience
+                <span className="font-bold text-white">GitHub:</span> 1 year and 5 months of experience
               </div>
             </div>
           </div>
