@@ -13,7 +13,7 @@ export const Header = () => {
           <div className="text-2xl text-gray-200">
            <LogoSvg width="75" height="75"/>
           </div>
-          <button className={`text-white p-5`} onClick={() => setShow(!show)}>
+          <button className={`text-white p-5 cursor-none`} onClick={() => setShow(!show)}>
             <div
               className={`${
                 show ? "rotate-[145deg]  -translate-y-1 -translate-x-2" : ""
