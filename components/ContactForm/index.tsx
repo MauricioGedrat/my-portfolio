@@ -4,15 +4,13 @@ import { WhatsSvg } from "../SvgComponents/WhatsSvg";
 export function ContactForm() {
   const [state, handleSubmit] = useForm("xoqzaaab");
 
-  
-
   return (
     <div className="flex justify-center items-center flex-col max-w-[1200px] m-auto">
       <div className="mt-32 flex justify-center mb-10" id="projects">
         <h1
           data-aos="zoom-in"
           data-aos-duration={2000}
-          className="font-bold font-['Poppins'] sm:text-7xl text-5xl title-shadow text-blue-500"
+          className="font-bold font-poppins sm:text-7xl text-5xl title-shadow text-blue-500"
         >
           Lets talk
         </h1>
@@ -80,7 +78,7 @@ export function ContactForm() {
             className="w-full cursor-none md:w-auto disabled:opacity-70  form-btn mb-5 border-4 border-blue-500 font-bold text-blue-500 rounded-lg text-2xl enabled:hover:bg-blue-500 enabled:hover:text-white duration-300 px-20 py-4 "
             disabled={state.succeeded}
           >
-            {state.succeeded ? 'Thanks for submiting!' : "Send"}
+            {state.succeeded ? "Thanks for submiting!" : "Send"}
           </button>
           <div>
             <a

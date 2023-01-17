@@ -15,7 +15,7 @@ export const Skills = () => {
         <h1
           data-aos="zoom-in"
           data-aos-duration={2000}
-          className="font-bold font-['Poppins'] sm:text-7xl text-6xl title-shadow text-blue-500"
+          className="font-bold font-poppins sm:text-7xl text-6xl title-shadow text-blue-500"
         >
           Skills
         </h1>
@@ -31,8 +31,9 @@ export const Skills = () => {
             <ReactSvg />
 
             <div className="relative  flex items-center text-white ">
-              <div className=" w-[250px] font-['Poppins'] text-[#d3d3d3] text-center text-xl">
-                <span className="font-bold text-white">React.js:</span> 1 year of experience
+              <div className=" w-[250px] font-poppins text-[#d3d3d3] text-center text-xl">
+                <span className="font-bold text-white">React.js:</span> 1 year
+                of experience
               </div>
             </div>
           </div>
@@ -43,8 +44,9 @@ export const Skills = () => {
           >
             <NextSvg />
             <div className="relative flex items-center text-white">
-              <div className=" w-[250px] font-['Poppins'] text-[#d3d3d3] text-center text-xl">
-                <span className="font-bold text-white">Next.js:</span> 10 months of experience
+              <div className=" w-[250px] font-poppins text-[#d3d3d3] text-center text-xl">
+                <span className="font-bold text-white">Next.js:</span> 10 months
+                of experience
               </div>
             </div>
           </div>
@@ -55,8 +57,9 @@ export const Skills = () => {
           >
             <TailwindSvg />
             <div className="relative flex items-center text-white">
-              <div className=" w-[250px] font-['Poppins'] text-[#d3d3d3] text-center text-xl">
-                <span className="font-bold text-white">Tailwind CSS:</span> 1 year of experience
+              <div className=" w-[250px] font-poppins text-[#d3d3d3] text-center text-xl">
+                <span className="font-bold text-white">Tailwind CSS:</span> 1
+                year of experience
               </div>
             </div>
           </div>
@@ -67,8 +70,9 @@ export const Skills = () => {
           >
             <ViteSvg />
             <div className="relative flex items-center text-white">
-              <div className=" w-[250px] font-['Poppins'] text-[#d3d3d3] text-center text-xl">
-                <span className="font-bold text-white">Vite.js:</span> 7 months of experience
+              <div className=" w-[250px] font-poppins text-[#d3d3d3] text-center text-xl">
+                <span className="font-bold text-white">Vite.js:</span> 7 months
+                of experience
               </div>
             </div>
           </div>
@@ -79,8 +83,9 @@ export const Skills = () => {
           >
             <NodeSvg />
             <div className="relative flex items-center text-white">
-              <div className=" w-[250px] font-['Poppins'] text-[#d3d3d3] text-center text-xl">
-                <span className="font-bold text-white">Node.js:</span> Without much experience
+              <div className=" w-[250px] font-poppins text-[#d3d3d3] text-center text-xl">
+                <span className="font-bold text-white">Node.js:</span> Without
+                much experience
               </div>
             </div>
           </div>
@@ -91,8 +96,9 @@ export const Skills = () => {
           >
             <GitSvg />
             <div className="relative flex items-center text-white">
-              <div className=" w-[250px] font-['Poppins'] text-[#d3d3d3] text-center text-xl">
-                <span className="font-bold text-white">Git:</span> 1 year and 3 months of experience
+              <div className=" w-[250px] font-poppins text-[#d3d3d3] text-center text-xl">
+                <span className="font-bold text-white">Git:</span> 1 year and 3
+                months of experience
               </div>
             </div>
           </div>
@@ -103,8 +109,9 @@ export const Skills = () => {
           >
             <GitHubSvg />
             <div className="relative flex items-center text-white">
-              <div className=" w-[250px] font-['Poppins'] text-[#d3d3d3] text-center text-xl">
-                <span className="font-bold text-white">GitHub:</span> 1 year and 5 months of experience
+              <div className=" w-[250px] font-poppins text-[#d3d3d3] text-center text-xl">
+                <span className="font-bold text-white">GitHub:</span> 1 year and
+                5 months of experience
               </div>
             </div>
           </div>
@@ -115,8 +122,11 @@ export const Skills = () => {
           >
             <VsCodeSvg />
             <div className="relative flex items-center text-white">
-              <div className=" w-[250px] font-['Poppins'] text-[#d3d3d3] text-center text-xl">
-                <span className="font-bold text-white">Visual Studio Code:</span> 2 years of experience
+              <div className=" w-[250px] font-poppins text-[#d3d3d3] text-center text-xl">
+                <span className="font-bold text-white">
+                  Visual Studio Code:
+                </span>{" "}
+                2 years of experience
               </div>
             </div>
           </div>

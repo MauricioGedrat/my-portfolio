@@ -7,15 +7,13 @@ import Img3 from "../../assets/project-3.webp";
 import Img4 from "../../assets/project-4.webp";
 
 export const Projects = () => {
- 
-  
   return (
     <div className=" max-w-[1200px] m-auto">
       <div className="mt-32 flex justify-center mb-20" id="projects">
         <h1
           data-aos="zoom-in"
           data-aos-duration={2000}
-          className="font-bold font-['Poppins'] sm:text-7xl text-5xl title-shadow text-blue-500"
+          className="font-bold font-poppins sm:text-7xl text-5xl title-shadow text-blue-500"
         >
           Projects
         </h1>
@@ -30,7 +28,7 @@ export const Projects = () => {
                 href={"https://scalar.dev.br/"}
                 className="image-outline"
               >
-                <Image src={Img1} alt="image" width={550}  />
+                <Image src={Img1} alt="image" width={550} />
 
                 <div className="outline o-1"></div>
                 <div className="outline o-2"></div>
@@ -43,11 +41,11 @@ export const Projects = () => {
               data-aos-duration={2000}
               data-aos="fade-down-right"
             >
-              <h1 className="text-[#d3d3d3] uppercase mb-5 md:text-4xl text-3xl font-['Poppins']">
+              <h1 className="text-[#d3d3d3] uppercase mb-5 md:text-4xl text-3xl font-poppins">
                 Scalar DEV
               </h1>
-              <p className="text-gray-500 font-['Poppins'] md:text-xl text-lg">
-              Web development company. Website developed in 2021
+              <p className="text-gray-500 font-poppins md:text-xl text-lg">
+                Web development company. Website developed in 2021
               </p>
             </div>
           </div>
@@ -70,10 +68,10 @@ export const Projects = () => {
               data-aos-duration={2000}
               data-aos="fade-up-right"
             >
-              <h1 className="text-[#d3d3d3] uppercase mb-5 md:text-4xl text-3xl font-['Poppins']">
+              <h1 className="text-[#d3d3d3] uppercase mb-5 md:text-4xl text-3xl font-poppins">
                 Duofree
               </h1>
-              <p className="text-gray-500 font-['Poppins'] md:text-xl text-lg">
+              <p className="text-gray-500 font-poppins md:text-xl text-lg">
                 Website developed for Design training. Website developed in 2022
               </p>
             </div>
@@ -97,10 +95,10 @@ export const Projects = () => {
               data-aos-duration={2000}
               data-aos="fade-down-right"
             >
-              <h1 className="text-[#d3d3d3] uppercase mb-5 md:text-4xl text-3xl font-['Poppins']">
+              <h1 className="text-[#d3d3d3] uppercase mb-5 md:text-4xl text-3xl font-poppins">
                 Mustang
               </h1>
-              <p className="text-gray-500 font-['Poppins'] md:text-xl text-lg">
+              <p className="text-gray-500 font-poppins md:text-xl text-lg">
                 Website developed for Design training. Website developed in 2022
               </p>
             </div>
@@ -124,10 +122,10 @@ export const Projects = () => {
               data-aos-duration={2000}
               data-aos="fade-up-right"
             >
-              <h1 className="text-[#d3d3d3] uppercase mb-5 md:text-4xl text-3xl font-['Poppins']">
+              <h1 className="text-[#d3d3d3] uppercase mb-5 md:text-4xl text-3xl font-poppins">
                 Restauly
               </h1>
-              <p className="text-gray-500 font-['Poppins'] md:text-xl text-lg">
+              <p className="text-gray-500 font-poppins md:text-xl text-lg">
                 Website developed for Design training. Website developed in 2022
               </p>
             </div>

@@ -11,9 +11,12 @@ export const Header = () => {
       <div>
         <div className="rounded-xl relative flex justify-between items-center z-[99] bg-transparent px-10 backdrop-blur-lg">
           <div className="text-2xl text-gray-200">
-           <LogoSvg width="75" height="75"/>
+            <LogoSvg width="75" height="75" />
           </div>
-          <button className={`text-white p-5 cursor-none`} onClick={() => setShow(!show)}>
+          <button
+            className={`text-white p-5 cursor-none`}
+            onClick={() => setShow(!show)}
+          >
             <div
               className={`${
                 show ? "rotate-[145deg]  -translate-y-1 -translate-x-2" : ""
@@ -35,7 +38,7 @@ export const Header = () => {
               <a
                 onClick={() => setShow(!show)}
                 href="#"
-                className="text-[#d3d3d3] border-opacity-0 hover:border-opacity-100 border-b-2 border-gray-500 duration-300 font-bold md:text-7xl text-4xl hover:text-white font-['Poppins'] transition-colors"
+                className="text-[#d3d3d3] border-opacity-0 hover:border-opacity-100 border-b-2 border-gray-500 duration-300 font-bold md:text-7xl text-4xl hover:text-white font-poppins transition-colors"
               >
                 Home
               </a>
@@ -44,7 +47,7 @@ export const Header = () => {
               <a
                 onClick={() => setShow(!show)}
                 href="#projects"
-                className="text-[#d3d3d3] border-opacity-0 hover:border-opacity-100 border-b-2 border-gray-500 duration-300 font-bold md:text-7xl text-4xl hover:text-white font-['Poppins'] transition-colors"
+                className="text-[#d3d3d3] border-opacity-0 hover:border-opacity-100 border-b-2 border-gray-500 duration-300 font-bold md:text-7xl text-4xl hover:text-white font-poppins transition-colors"
               >
                 Projects
               </a>
@@ -53,7 +56,7 @@ export const Header = () => {
               <a
                 onClick={() => setShow(!show)}
                 href="#skills"
-                className="text-[#d3d3d3] border-opacity-0 hover:border-opacity-100 border-b-2 border-gray-500 duration-300 font-bold md:text-7xl text-4xl hover:text-white font-['Poppins'] transition-colors"
+                className="text-[#d3d3d3] border-opacity-0 hover:border-opacity-100 border-b-2 border-gray-500 duration-300 font-bold md:text-7xl text-4xl hover:text-white font-poppins transition-colors"
               >
                 Skills
               </a>
@@ -62,7 +65,7 @@ export const Header = () => {
               <a
                 onClick={() => setShow(!show)}
                 href="#"
-                className="text-[#d3d3d3] border-opacity-0 hover:border-opacity-100 border-b-2 border-gray-500 duration-300 font-bold md:text-7xl text-4xl hover:text-white font-['Poppins'] transition-colors"
+                className="text-[#d3d3d3] border-opacity-0 hover:border-opacity-100 border-b-2 border-gray-500 duration-300 font-bold md:text-7xl text-4xl hover:text-white font-poppins transition-colors"
               >
                 Contact
               </a>
