@@ -5,7 +5,10 @@ export function ContactForm() {
   const [state, handleSubmit] = useForm("xoqzaaab");
 
   return (
-    <div className="flex justify-center items-center flex-col max-w-[1200px] m-auto">
+    <div
+      id="contact"
+      className="flex justify-center items-center flex-col max-w-[1200px] m-auto"
+    >
       <div className="mt-32 flex justify-center mb-10" id="projects">
         <h1
           data-aos="zoom-in"

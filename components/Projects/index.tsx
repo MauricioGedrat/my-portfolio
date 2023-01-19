@@ -1,27 +1,28 @@
 import Image from "next/image";
 import Link from "next/link";
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Img1 from "../../assets/project-1.webp";
 import Img2 from "../../assets/project-2.webp";
 import Img3 from "../../assets/project-3.webp";
 import Img4 from "../../assets/project-4.webp";
+import * as styles from "../../styles/ProjectsStyles";
 
 export const Projects = () => {
   return (
-    <div className=" max-w-[1200px] m-auto">
-      <div className="mt-32 flex justify-center mb-20" id="projects">
+    <div className={styles.projectsStylesContainer}>
+      <div className={styles.projectsStylesTitleContainer} id="projects">
         <h1
           data-aos="zoom-in"
           data-aos-duration={2000}
-          className="font-bold font-poppins sm:text-7xl text-5xl title-shadow text-blue-500"
+          className={styles.projectsStylesTitle}
         >
           Projects
         </h1>
       </div>
 
-      <div className="flex justify-center max-w-[1200px]">
+      <div className={styles.projectsStylesContent}>
         <div className="max-w-[1200px] p-10">
-          <div className="mb-20 xl:flex-row-reverse flex-col-reverse flex justify-between  items-center gap-10">
+          <div className={styles.projectsStylesItemReverse}>
             <div data-aos-duration={2000} data-aos="fade-up-right">
               <Link
                 target={"_blank"}
@@ -37,19 +38,19 @@ export const Projects = () => {
               </Link>
             </div>
             <div
-              className="xl:block flex-col text-center flex justify-center "
+              className={styles.prjectsStylesDescriptionContainer}
               data-aos-duration={2000}
               data-aos="fade-down-right"
             >
-              <h1 className="text-[#d3d3d3] uppercase mb-5 md:text-4xl text-3xl font-poppins">
+              <h1 className={styles.projectsStylesTitleDescription}>
                 Scalar DEV
               </h1>
-              <p className="text-gray-500 font-poppins md:text-xl text-lg">
+              <p className={styles.projectsStylesParagraphDescription}>
                 Web development company. Website developed in 2021
               </p>
             </div>
           </div>
-          <div className="mb-20 xl:flex-row flex-col-reverse flex justify-between  items-center gap-10">
+          <div className={styles.projectsStylesItem}>
             <div data-aos-duration={2000} data-aos="fade-down-right">
               <Link
                 target={"_blank"}
@@ -64,19 +65,17 @@ export const Projects = () => {
               </Link>
             </div>
             <div
-              className="xl:block flex-col text-center flex justify-center "
+              className={styles.prjectsStylesDescriptionContainer}
               data-aos-duration={2000}
               data-aos="fade-up-right"
             >
-              <h1 className="text-[#d3d3d3] uppercase mb-5 md:text-4xl text-3xl font-poppins">
-                Duofree
-              </h1>
-              <p className="text-gray-500 font-poppins md:text-xl text-lg">
+              <h1 className={styles.projectsStylesTitleDescription}>Duofree</h1>
+              <p className={styles.projectsStylesParagraphDescription}>
                 Website developed for Design training. Website developed in 2022
               </p>
             </div>
           </div>
-          <div className="mb-20 xl:flex-row-reverse flex-col-reverse flex justify-between  items-center gap-10">
+          <div className={styles.projectsStylesItemReverse}>
             <div data-aos-duration={2000} data-aos="fade-up-right">
               <Link
                 target={"_blank"}
@@ -91,19 +90,17 @@ export const Projects = () => {
               </Link>
             </div>
             <div
-              className="xl:block flex-col text-center flex justify-center "
+              className={styles.prjectsStylesDescriptionContainer}
               data-aos-duration={2000}
               data-aos="fade-down-right"
             >
-              <h1 className="text-[#d3d3d3] uppercase mb-5 md:text-4xl text-3xl font-poppins">
-                Mustang
-              </h1>
-              <p className="text-gray-500 font-poppins md:text-xl text-lg">
+              <h1 className={styles.projectsStylesTitleDescription}>Mustang</h1>
+              <p className={styles.projectsStylesParagraphDescription}>
                 Website developed for Design training. Website developed in 2022
               </p>
             </div>
           </div>
-          <div className="mb-20 xl:flex-row flex-col-reverse flex justify-between  items-center gap-10">
+          <div className={styles.projectsStylesItem}>
             <div data-aos-duration={2000} data-aos="fade-down-right">
               <Link
                 target={"_blank"}
@@ -118,14 +115,14 @@ export const Projects = () => {
               </Link>
             </div>
             <div
-              className="xl:block flex-col text-center flex justify-center "
+              className={styles.prjectsStylesDescriptionContainer}
               data-aos-duration={2000}
               data-aos="fade-up-right"
             >
-              <h1 className="text-[#d3d3d3] uppercase mb-5 md:text-4xl text-3xl font-poppins">
+              <h1 className={styles.projectsStylesTitleDescription}>
                 Restauly
               </h1>
-              <p className="text-gray-500 font-poppins md:text-xl text-lg">
+              <p className={styles.projectsStylesParagraphDescription}>
                 Website developed for Design training. Website developed in 2022
               </p>
             </div>

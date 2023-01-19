@@ -1,10 +1,11 @@
 import React from "react";
+import * as styles from "../../styles/HeroStyles";
 
 export const TitleHero = () => {
   return (
-    <h1 className="text-[55px] leading-[30px] sm:text-[90px] sm:leading-[40px] 2xl:text-[240px] font-bold 2xl:leading-[110px] text-center text-[#ededed] font-poppins mt-40 xl:text-[200px] xl:leading-[100px] lg:text-[160px] lg:leading-[70px] md:text-[130px] md:leading-[60px]">
+    <h1 className={styles.heroStylesTitleContainer}>
       <div
-        className="flex justify-center text-blue-500 title-shadow"
+        className={styles.heroStylesLettersContainer}
         data-aos="zoom-in"
         data-aos-duration="2000"
       >

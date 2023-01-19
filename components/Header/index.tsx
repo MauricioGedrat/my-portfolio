@@ -63,7 +63,7 @@ export const Header = () => {
             <div className="mb-10">
               <a
                 onClick={() => setShow(!show)}
-                href="#"
+                href="#contact"
                 className={styles.headerStylesMenuLinks}
               >
                 Contact
