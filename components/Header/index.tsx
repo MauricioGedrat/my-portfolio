@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React, { useContext } from "react";
 import { LogoSvg } from "../SvgComponents/LogoSvg";
 import * as styles from "../../styles/HeaderStyles/index";
+import { ContextApi } from "../../Context/index";
 
 export const Header = () => {
-  const [show, setShow] = useState(false);
-
+  const { show, setShow } = useContext(ContextApi);
   return (
     <div data-aos="fade-up" className={styles.headerStylesContainer}>
       <div>

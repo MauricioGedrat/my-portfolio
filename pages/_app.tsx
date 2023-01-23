@@ -4,6 +4,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import { FormspreeProvider } from "@formspree/react";
+import { ContextProvider } from "../Context/index";
 
 export default function App({ Component, pageProps }: AppProps) {
   useEffect(() => {
@@ -13,10 +14,12 @@ export default function App({ Component, pageProps }: AppProps) {
     });
   }, []);
   return (
-    <FormspreeProvider>
-      <div className="snap-y">
-        <Component {...pageProps} />
-      </div>
-    </FormspreeProvider>
+    <ContextProvider>
+      <FormspreeProvider>
+        <div className="snap-y">
+          <Component {...pageProps} />
+        </div>
+      </FormspreeProvider>
+    </ContextProvider>
   );
 }
