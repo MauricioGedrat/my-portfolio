@@ -7,31 +7,32 @@ import { TailwindSvg } from "../SvgComponents/TailwindSvg";
 import { ViteSvg } from "../SvgComponents/ViteSvg";
 import { GitHubSvg } from "../SvgComponents/GitHubSvg";
 import { VsCodeSvg } from "../SvgComponents/VsCodeSvg";
+import * as styles from "../../styles/SkillsStyles";
 
 export const Skills = () => {
   return (
     <div id="skills" className="pb-10">
-      <div className=" flex justify-center pb-20" id="projects">
+      <div className={styles.skillsStylesTitleContainer} id="projects">
         <h1
           data-aos="zoom-in"
           data-aos-duration={2000}
-          className="font-bold font-poppins sm:text-7xl text-6xl title-shadow text-blue-500"
+          className={styles.skillsStylesTitle}
         >
           Skills
         </h1>
       </div>
 
-      <div className="flex justify-center items-center">
-        <div className="grid grid-cols-1 xl:grid-cols-2 gap-20">
+      <div className={styles.skillsStylesContent}>
+        <div className={styles.skillsStylesItemsContainer}>
           <div
             data-aos="flip-down"
             data-aos-duration={2000}
-            className="md:flex-row flex-col flex justify-center items-center gap-14"
+            className={styles.skillsStylesItemContainer}
           >
             <ReactSvg />
 
-            <div className="relative  flex items-center text-white ">
-              <div className=" w-[250px] font-poppins text-[#d3d3d3] text-center text-xl">
+            <div className={styles.skillsStylesDescriptionContainer}>
+              <div className={styles.skillsStylesDescription}>
                 <span className="font-bold text-white">React.js:</span> 1 year
                 of experience
               </div>
@@ -40,11 +41,11 @@ export const Skills = () => {
           <div
             data-aos="flip-down"
             data-aos-duration={2000}
-            className="md:flex-row flex-col flex justify-center items-center gap-14"
+            className={styles.skillsStylesItemContainer}
           >
             <NextSvg />
-            <div className="relative flex items-center text-white">
-              <div className=" w-[250px] font-poppins text-[#d3d3d3] text-center text-xl">
+            <div className={styles.skillsStylesDescriptionContainer}>
+              <div className={styles.skillsStylesDescription}>
                 <span className="font-bold text-white">Next.js:</span> 10 months
                 of experience
               </div>
@@ -53,11 +54,11 @@ export const Skills = () => {
           <div
             data-aos="flip-down"
             data-aos-duration={2000}
-            className="md:flex-row flex-col flex justify-center items-center gap-14"
+            className={styles.skillsStylesItemContainer}
           >
             <TailwindSvg />
-            <div className="relative flex items-center text-white">
-              <div className=" w-[250px] font-poppins text-[#d3d3d3] text-center text-xl">
+            <div className={styles.skillsStylesDescriptionContainer}>
+              <div className={styles.skillsStylesDescription}>
                 <span className="font-bold text-white">Tailwind CSS:</span> 1
                 year of experience
               </div>
@@ -66,11 +67,11 @@ export const Skills = () => {
           <div
             data-aos="flip-down"
             data-aos-duration={2000}
-            className="md:flex-row flex-col flex justify-center items-center gap-14"
+            className={styles.skillsStylesItemContainer}
           >
             <ViteSvg />
-            <div className="relative flex items-center text-white">
-              <div className=" w-[250px] font-poppins text-[#d3d3d3] text-center text-xl">
+            <div className={styles.skillsStylesDescriptionContainer}>
+              <div className={styles.skillsStylesDescription}>
                 <span className="font-bold text-white">Vite.js:</span> 7 months
                 of experience
               </div>
@@ -79,11 +80,11 @@ export const Skills = () => {
           <div
             data-aos="flip-down"
             data-aos-duration={2000}
-            className="md:flex-row flex-col flex justify-center items-center gap-14"
+            className={styles.skillsStylesItemContainer}
           >
             <NodeSvg />
-            <div className="relative flex items-center text-white">
-              <div className=" w-[250px] font-poppins text-[#d3d3d3] text-center text-xl">
+            <div className={styles.skillsStylesDescriptionContainer}>
+              <div className={styles.skillsStylesDescription}>
                 <span className="font-bold text-white">Node.js:</span> Without
                 much experience
               </div>
@@ -92,11 +93,11 @@ export const Skills = () => {
           <div
             data-aos="flip-down"
             data-aos-duration={2000}
-            className="md:flex-row flex-col flex justify-center items-center gap-14"
+            className={styles.skillsStylesItemContainer}
           >
             <GitSvg />
-            <div className="relative flex items-center text-white">
-              <div className=" w-[250px] font-poppins text-[#d3d3d3] text-center text-xl">
+            <div className={styles.skillsStylesDescriptionContainer}>
+              <div className={styles.skillsStylesDescription}>
                 <span className="font-bold text-white">Git:</span> 1 year and 3
                 months of experience
               </div>
@@ -105,11 +106,11 @@ export const Skills = () => {
           <div
             data-aos="flip-down"
             data-aos-duration={2000}
-            className="md:flex-row flex-col flex justify-center items-center gap-14"
+            className={styles.skillsStylesItemContainer}
           >
             <GitHubSvg />
-            <div className="relative flex items-center text-white">
-              <div className=" w-[250px] font-poppins text-[#d3d3d3] text-center text-xl">
+            <div className={styles.skillsStylesDescriptionContainer}>
+              <div className={styles.skillsStylesDescription}>
                 <span className="font-bold text-white">GitHub:</span> 1 year and
                 5 months of experience
               </div>
@@ -118,11 +119,11 @@ export const Skills = () => {
           <div
             data-aos="flip-down"
             data-aos-duration={2000}
-            className="md:flex-row flex-col flex justify-center items-center gap-14"
+            className={styles.skillsStylesItemContainer}
           >
             <VsCodeSvg />
-            <div className="relative flex items-center text-white">
-              <div className=" w-[250px] font-poppins text-[#d3d3d3] text-center text-xl">
+            <div className={styles.skillsStylesDescriptionContainer}>
+              <div className={styles.skillsStylesDescription}>
                 <span className="font-bold text-white">
                   Visual Studio Code:
                 </span>{" "}

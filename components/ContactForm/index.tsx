@@ -1,29 +1,25 @@
 import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
 import { WhatsSvg } from "../SvgComponents/WhatsSvg";
+import * as styles from "../../styles/ContactStyles";
+
 export function ContactForm() {
   const [state, handleSubmit] = useForm("xoqzaaab");
 
   return (
-    <div
-      id="contact"
-      className="flex justify-center items-center flex-col max-w-[1200px] m-auto"
-    >
-      <div className="mt-32 flex justify-center mb-10" id="projects">
+    <div id="contact" className={styles.contactStylesContainer}>
+      <div className={styles.contactStylesTtileContainer} id="projects">
         <h1
           data-aos="zoom-in"
           data-aos-duration={2000}
-          className="font-bold font-poppins sm:text-7xl text-5xl title-shadow text-blue-500"
+          className={styles.contactStylesTitle}
         >
           Lets talk
         </h1>
       </div>
       <form onSubmit={handleSubmit} action="https://formspree.io/f/xoqzaaab">
         <div>
-          <label
-            className="text-[#d3d3d3] font-thin mb-5 text-xl"
-            htmlFor="name"
-          >
+          <label className={styles.contactStylesLabel} htmlFor="name">
             Name
           </label>
         </div>
@@ -32,16 +28,13 @@ export function ContactForm() {
             id="name"
             type="text"
             name="name"
-            className="xl:w-[1200px] lg:w-[800px] md:w-[600px] sm:w-[400px] w-[300px] m-auto rounded-md mb-5 p-4 bg-gray-900 text-white"
+            className={styles.contactStylesInput}
           />
         </div>
         <ValidationError prefix="Name" field="name" errors={state.errors} />
 
         <div>
-          <label
-            className="text-[#d3d3d3] font-thin mb-5 text-xl"
-            htmlFor="email"
-          >
+          <label className={styles.contactStylesLabel} htmlFor="email">
             Email Address
           </label>
         </div>
@@ -50,15 +43,12 @@ export function ContactForm() {
             id="email"
             type="email"
             name="email"
-            className="xl:w-[1200px] lg:w-[800px] md:w-[600px] sm:w-[400px] w-[300px] m-auto rounded-md mb-5 p-4 bg-gray-900 text-white"
+            className={styles.contactStylesInput}
           />
         </div>
         <ValidationError prefix="Email" field="email" errors={state.errors} />
         <div>
-          <label
-            className="text-[#d3d3d3] font-thin mb-5 text-xl"
-            htmlFor="message"
-          >
+          <label className={styles.contactStylesLabel} htmlFor="message">
             Message
           </label>
         </div>
@@ -66,7 +56,7 @@ export function ContactForm() {
           <textarea
             id="message"
             name="message"
-            className="xl:w-[1200px] lg:w-[800px] md:w-[600px] sm:w-[400px] w-[300px] m-auto rounded-md mb-5 p-4 bg-gray-900 text-white"
+            className={styles.contactStylesInput}
           />
         </div>
 
@@ -78,14 +68,14 @@ export function ContactForm() {
         <div className="md:flex gap-[20px]">
           <button
             type="submit"
-            className="w-full cursor-none md:w-auto disabled:opacity-70  form-btn mb-5 border-4 border-blue-500 font-bold text-blue-500 rounded-lg text-2xl enabled:hover:bg-blue-500 enabled:hover:text-white duration-300 px-20 py-4 "
+            className={styles.contactStylesSubmitButton}
             disabled={state.succeeded}
           >
             {state.succeeded ? "Thanks for submiting!" : "Send"}
           </button>
           <div>
             <a
-              className="flex justify-center gap-2 items-center whats-btn border-4 border-[#25D366] hover:bg-[#25D366] font-bold rounded-lg text-white text-xl duration-300 text-center px-4 py-4"
+              className={styles.contactStylesWhatsButton}
               href="https://api.whatsapp.com/send/?phone=5551997967855"
             >
               Whatsapp <WhatsSvg />
