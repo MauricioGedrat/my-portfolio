@@ -9,10 +9,10 @@ export const contactStylesTitle =
 export const contactStylesLabel = "text-[#d3d3d3] font-thin mb-5 text-xl";
 
 export const contactStylesInput =
-  "xl:w-[1200px] lg:w-[800px] md:w-[600px] sm:w-[400px] w-[300px] m-auto rounded-md mb-5 p-4 bg-gray-900 text-white";
+  "xl:w-[1200px] lg:w-[800px] cursor-none md:w-[600px] sm:w-[400px] w-[300px] m-auto rounded-md mb-5 p-4 bg-gray-900 text-white";
 
 export const contactStylesSubmitButton =
-  "w-full cursor-none md:w-auto disabled:opacity-70  form-btn mb-5 border-4 border-blue-500 font-bold text-blue-500 rounded-lg text-2xl enabled:hover:bg-blue-500 enabled:hover:text-white duration-300 px-20 py-4";
+  "w-full cursor-none md:w-auto disabled:opacity-70 form-btn mb-5 border-4 border-blue-500 font-regular text-blue-500 rounded-lg text-2xl enabled:hover:bg-blue-500 enabled:hover:text-white duration-300 px-20 py-2";
 
 export const contactStylesWhatsButton =
-  "flex justify-center gap-2 items-center whats-btn border-4 border-[#25D366] hover:bg-[#25D366] font-bold rounded-lg text-white text-xl duration-300 text-center px-4 py-4";
+  "flex justify-center gap-2 cursor-none items-center whats-btn border-4 border-[#25D366] font-regular rounded-lg text-white text-xl text-center px-4 py-2";

@@ -12,7 +12,7 @@ export const heroStylesParagraphContainer =
   "text-gray-400 sm:text-2xl text-md xl:text-right text-center";
 
 export const heroStylesParagraph =
-  "text-gray-400 sm:text-2xl text-md xl:text-right text-center";
+  "text-gray-400 sm:text-2xl text-md xl:text-right text-center mt-10";
 
 export const heroStylesStartButton =
-  "inline-block text-3xl sm:text-4xl text-blue-500 uppercase border-2 border-blue-500 sm:px-20 px-10 sm:py-6 py-3 rounded-lg neon-btn relative";
+  "cursor-none inline-block text-3xl sm:text-4xl text-blue-500 uppercase border-2 border-blue-500 sm:px-20 px-10 sm:py-6 py-3 rounded-lg neon-btn relative mt-10";

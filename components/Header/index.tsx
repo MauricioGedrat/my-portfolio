@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { LogoSvg } from "../SvgComponents/LogoSvg";
 import * as styles from "../../styles/HeaderStyles/index";
 import { ContextApi } from "../../Context/index";
+import Link from "next/link";
 
 export const Header = () => {
   const { show, setShow } = useContext(ContextApi);
@@ -34,40 +35,40 @@ export const Header = () => {
             className={styles.headerStylesMenuContainer}
           >
             <div className="mb-10">
-              <a
+              <Link
                 onClick={() => setShow(!show)}
                 href="#"
                 className={styles.headerStylesMenuLinks}
               >
                 Home
-              </a>
+              </Link>
             </div>
             <div className="mb-10">
-              <a
+              <Link
                 onClick={() => setShow(!show)}
                 href="#projects"
                 className={styles.headerStylesMenuLinks}
               >
                 Projects
-              </a>
+              </Link>
             </div>
             <div className="mb-10">
-              <a
+              <Link
                 onClick={() => setShow(!show)}
                 href="#skills"
                 className={styles.headerStylesMenuLinks}
               >
                 Skills
-              </a>
+              </Link>
             </div>
             <div className="mb-10">
-              <a
+              <Link
                 onClick={() => setShow(!show)}
                 href="#contact"
                 className={styles.headerStylesMenuLinks}
               >
                 Contact
-              </a>
+              </Link>
             </div>
           </div>
         )}

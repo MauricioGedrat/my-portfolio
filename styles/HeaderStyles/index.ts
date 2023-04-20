@@ -23,4 +23,4 @@ export const headerStylesMenuContainer =
   "mt-[65px] absolute  flex items-center justify-center flex-col top-0 bottom-0 left-0 right-0 bg-transparent backdrop-blur-lg h-[95vh] z-[99]";
 
 export const headerStylesMenuLinks =
-  "text-[#d3d3d3] border-opacity-0 hover:border-opacity-100 border-b-2 border-gray-500 duration-300 font-bold md:text-7xl text-4xl hover:text-white font-poppins transition-colors";
+  "text-[#d3d3d3] cursor-none border-opacity-0 hover:border-opacity-100 border-b-2 border-gray-500 duration-300 font-bold md:text-7xl text-4xl hover:text-white font-poppins transition-colors";

@@ -71,7 +71,7 @@ export function ContactForm() {
             className={styles.contactStylesSubmitButton}
             disabled={state.succeeded}
           >
-            {state.succeeded ? "Thanks for submiting!" : "Send"}
+            Send
           </button>
           <div>
             <a
